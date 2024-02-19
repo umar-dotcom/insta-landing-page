@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="build.css">
+     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body class=" ">
+    <div class="conatiner flex justify-center my-20 w-fit mx-auto">
+        <!-- image div -->
+        <div class="right flex ">
+            <img src="mobile.png" alt="png" class="mr-40">
+        </div>
+        <div class=" left flex flex-col ">
+            <!-- upper side -->
+            <div class="uppper flex flex-col w-auto bg-white border border-gray-200">
+                <div class="py-7 my-5 flex justify-center items-center text-5xl font-semibold font-serif">
+                    Instagram
+                </div>
+                <!-- input tags -->
+                <div class="input tags flex flex-col">
+
+                    <input
+                        class="w-72 mx-10 p-2 my-2 border border-gray-300 focus:outline-0 focus:border-gray-400 transition-all rounded-sm text-xs "
+                        type="text" placeholder="Phone number, username, or email ">
+                    <input
+                        class="w-72 mx-10 p-2 my-[0.01rem] border border-gray-300 focus:outline-0 focus:border-gray-400 transition-all rounded-sm text-xs "
+                        type="password" placeholder="Password">
+                </div>
+                <!-- facebook button  -->
+                <button
+                    class="bg-[#4bb4f8] text-white font-medium border  rounded-lg w-72 p-[0.20rem] my-3 mx-10 mb-4">Log
+                    in</button>
+                <!-- hr and or  -->
+                <div class="hr flex flex-row justify-center space-x-2">
+                    <hr class="w-[7.5rem] mt-2"> <span class="text-xs font-medium text-gray-600 mx-1">OR</span>
+                    <hr class="w-[7.5rem] mt-2">
+                </div>
+                <!-- login with facebook -->
+                <div class="facebook flex mx-auto my-4 space-x-1">
+                    <img src="facebookicon.png" alt="facebook" class="h-5 w-5 my-[0.1rem] ">
+                    <span class="text-[#385185] font-medium text-sm cursor-pointer"> <a href="https://www.facebook.com/" target="_blank"></a>Log in with Facebook</span>
+                </div>
+                <!-- forget password -->
+                <div class="forget flex mx-auto text-[#00376b] font-normal text-xs cursor-pointer mb-5">
+                    <span>Forget password?</span>
+                </div>
+            </div>
+            <!-- lower side -->
+            <div
+                class="lower relative uppper flex items-center justify-center w-[23rem] bg-white border border-gray-200 mx-auto p-6 mt-3">
+
+                <div class="text-sm">
+                    <span>Don't have an account? <span class="font-medium text-[#4bb4f8] cursor-pointer">Sign
+                            up</span></span>
+                </div>
+                <!-- Micrsoft and playstore logos -->
+                <div class="absolute">
+
+                    <div class="gettheapp flex justify-center mt-40 mx-auto">
+                        Get the app.
+                    </div>
+                    <div class="images mt-3 flex flex-row space-x-4">
+                        <img src="playstore.png" alt="" class="h-10 w-auto">
+                        <img src="Micrsoft.png" alt="" class="h-10 w-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
